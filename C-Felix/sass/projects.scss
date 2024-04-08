@@ -1,0 +1,203 @@
+.projectsPageImgTitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  width: 100%;
+  height: 170px;
+  color: rgb(255, 255, 255);
+
+  &::before {
+    content: "";
+    background-image: url(../projectsPageImages/hardwood_floor.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+  }
+}
+
+.projectsPageTitle {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.projectsPageSubtitle {
+  width: 100%;
+  height: 370px;
+
+  h2 {
+    width: 50%;
+    font-size: 2.4rem;
+    font-weight: 900;
+  }
+  p {
+    width: 45%;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+}
+
+.card {
+  border: 4px solid;
+}
+
+.card-body-ProjectsPage {
+  h6 {
+    font-weight: 900;
+    padding-left: 10%;
+  }
+}
+
+.card-text-ProjectsPage {
+  padding-left: 10%;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 2;
+}
+
+.projectsPageImgAside {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  border-radius: 3%;
+}
+
+.projectsPageImgAside1 {
+  background-image: url(../projectsPageImages/condo-01.jpg);
+  width: 60%;
+}
+
+.projectsPageImgAside2 {
+  background-image: url(../projectsPageImages/swimming_pool.webp);
+  width: 75%;
+}
+
+.projectsPageImgAside3 {
+  background-image: url(../projectsPageImages/galpao.jpg);
+  width: 100%;
+  border-radius: 3%;
+}
+
+.requestCard-ProjectsPage {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 954px) {
+  .projectsPageSubtitle {
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .projectsPageCard {
+    padding-bottom: 10%;
+  }
+  .projectsPageCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectsPageImgAside {
+    height: 360px;
+    width: 80%;
+  }
+  .projectsPageCardContent2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 757px) {
+  .projectsPageSubtitle {
+    h2 {
+      width: 60%;
+    }
+  }
+  .projectsPageImgAside {
+    height: 300px;
+  }
+  .requestCard-ProjectsPage {
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 631px) {
+  .projectsPageSubtitle {
+    h2 {
+      width: 70%;
+    }
+  }
+  .requestCard-ProjectsPage {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .projectsPageSubtitle {
+    h2 {
+      width: 90%;
+    }
+  }
+
+  .card-body-ProjectsPage {
+    h6 {
+      padding: 0%;
+      line-height: 1.6;
+    }
+  }
+  .card-text-ProjectsPage {
+    font-size: 14px;
+    width: 100%;
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .projectsPageTitle {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .projectsPageTitle {
+    font-size: 2rem;
+  }
+  .projectsPageSubtitle {
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .projectsPageTitle {
+    text-align: center;
+  }
+}

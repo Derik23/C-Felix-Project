@@ -1,0 +1,112 @@
+.contactPageImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  width: 100%;
+  height: 355px;
+
+  &::before {
+    content: "";
+    background-image: url(../contactPageImage/hardwood_floor.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+  }
+}
+
+.contactPageTitle {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.contactPageFormTitle {
+  height: 180px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    font-weight: 900;
+  }
+  p {
+    opacity: 0.8;
+  }
+}
+
+.contactPageForm {
+  height: 500px;
+  padding-top: 5%;
+  button {
+    color: #007f8b;
+    border: 1px solid #007f8b;
+    &:hover {
+      background-color: #007f8b;
+    }
+  }
+}
+
+#btnSubmit {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 914px) {
+  .contactPageTitle {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  .contactPageFormTitle {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 594px) {
+  .contactPageFormTitle {
+    width: 80%;
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .contactPageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contactPageTitle {
+    font-size: 2.3rem;
+  }
+  .contactPageFormTitle {
+    width: 90%;
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .contactPageFormTitle {
+    width: 100%;
+  }
+}

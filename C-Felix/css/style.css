@@ -1,0 +1,966 @@
+.carousel-item {
+  height: 70vh;
+}
+
+.card-img-top {
+  width: 4rem;
+}
+
+.halfSideImg {
+  background-image: url(../images/3bootstrapGrid/engineeringCFelix.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.halfSideImg2 {
+  background-image: url(../images/3bootstrapGrid/fachada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.workCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.workCardImg {
+  background-image: url(../images/4bootstrapGrid/condo-01.jpg);
+}
+
+.workCardImg2 {
+  background-image: url(../images/4bootstrapGrid/condo-02.jpg);
+}
+
+.workCardImg3 {
+  background-image: url(../images/4bootstrapGrid/condo-03.jpg);
+}
+
+.workCardImg4 {
+  background-image: url(../images/4bootstrapGrid/viaduto.jpg);
+}
+
+.workCardImg5 {
+  background-image: url(../images/4bootstrapGrid/arena-01-p-500.jpeg);
+}
+
+.workCardImg6 {
+  background-image: url(../images/4bootstrapGrid/galpao.jpg);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+  width: 100%;
+  background-color: transparent;
+}
+
+.requestCard {
+  height: 400px;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(3deg, rgb(2, 0, 36) 0%, rgb(0, 127, 139) 46%, rgb(0, 212, 255) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+}
+.requestCard h1 {
+  color: #ffffff;
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 20px;
+  font-size: 1.9rem;
+}
+.requestCard p {
+  color: #ffffff;
+  opacity: 0.9;
+  font-weight: 900;
+  padding-bottom: 3%;
+}
+.requestCard button {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #00a0af;
+  border-radius: 10px;
+}
+.requestCard button:hover {
+  color: #007f8b;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.navbar {
+  height: 90px;
+}
+
+.navbarBtn button {
+  background-color: #ffffff;
+  color: #007f8b;
+  border: 1px #007f8b solid;
+  font-size: 11px;
+}
+.navbarBtn button:hover {
+  background-color: #007f8b;
+  color: #ffffff;
+}
+
+.navbar-collapse {
+  background-color: rgb(255, 255, 255);
+  padding-left: 5%;
+}
+
+#navbarTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#navbarSubTitle {
+  display: block;
+  font-size: 12px;
+  color: #007f8b;
+  padding-left: 8px;
+}
+
+.footer {
+  height: 400px;
+  background: rgb(66, 66, 66);
+  color: rgb(255, 255, 255);
+}
+
+.footerTitle {
+  color: #007f8b;
+}
+
+.card-body-footer {
+  row-gap: 40%;
+}
+
+.card-text-footer {
+  width: 90%;
+}
+
+.copyright {
+  font-size: 12px;
+}
+.copyright span {
+  color: #007f8b;
+}
+
+.contactFooter p {
+  font-size: 12px;
+}
+
+.arrowFooter {
+  background: #ffffff;
+  border-radius: 100%;
+}
+.arrowFooter:hover {
+  background-color: transparent;
+}
+
+.hrUsual {
+  height: 1vh;
+  width: 100%;
+  background: linear-gradient(to right, #75ffe3, #007f8b);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 656px) {
+  .footer {
+    height: 560px;
+  }
+}
+@media only screen and (max-width: 513px) {
+  .footer {
+    height: 600px;
+  }
+  .copyright span {
+    display: block;
+  }
+}
+@media only screen and (max-width: 379px) {
+  .footer {
+    height: 640px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .footer {
+    height: 660px;
+  }
+}
+.imgCarousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  opacity: 0.9;
+  width: 100%;
+}
+.imgCarousel::before {
+  content: "";
+  background-image: url(../images/image3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.29;
+}
+
+.imgCarousel2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  width: 100%;
+}
+.imgCarousel2::before {
+  content: "";
+  background-image: url(../images/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.29;
+}
+
+.titleCarousel h1 {
+  font-size: 2.3rem;
+  padding: 15px;
+}
+.titleCarousel p {
+  padding: 5px;
+}
+
+.titleCarouselInfo {
+  font-size: 20px;
+}
+
+.btnCarouselMainPage:hover {
+  color: #007f8b;
+}
+
+.title1 {
+  margin: auto auto;
+  height: 250px;
+  width: 80%;
+  line-height: 1.6;
+}
+.title1 h2 {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.title2 {
+  height: 250px;
+  width: 100%;
+}
+.title2 h2 {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.boxMainPage {
+  height: 300px;
+}
+
+.box {
+  width: 250px;
+}
+.box h5 {
+  padding-top: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #007f8b;
+}
+.box p {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.qualityCard {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quality-card-text {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.quality-card-body {
+  width: 150px;
+}
+
+.halfSideInfoMainPage {
+  line-height: 1.6;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.halfSideInfoMainPage h2 {
+  font-weight: 600;
+  font-size: 26px;
+  width: 300px;
+  opacity: 0.9;
+}
+.halfSideInfoMainPage p {
+  width: 300px;
+  line-height: 2.5;
+  opacity: 0.8;
+}
+.halfSideInfoMainPage button {
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(to right, #75ffe3, #007f8b);
+}
+.halfSideInfoMainPage button:hover {
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px rgb(139, 139, 139);
+}
+
+.halfSideInfo2MainPage {
+  line-height: 1.6;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.halfSideInfo2MainPage h2 {
+  font-weight: 600;
+  font-size: 26px;
+  width: 300px;
+  opacity: 0.9;
+}
+.halfSideInfo2MainPage p {
+  width: 300px;
+  line-height: 2.5;
+  opacity: 0.8;
+}
+.halfSideInfo2MainPage button {
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(to right, #75ffe3, #007f8b);
+}
+.halfSideInfo2MainPage button:hover {
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px rgb(139, 139, 139);
+}
+
+.cardMainPageTitle {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardMainPageTitle h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 20px;
+}
+.cardMainPageTitle p {
+  font-weight: 800;
+  opacity: 0.7;
+  width: 70%;
+  font-size: 20px;
+}
+
+.cardMainPageContent {
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-text-MainPage {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  width: 50%;
+  color: #f6f6f6;
+  background: #007f8b;
+}
+
+@media only screen and (max-width: 1440px) {
+  .titleCarousel {
+    padding-bottom: 10%;
+  }
+  .title1 h2 {
+    font-size: 2.2rem;
+  }
+  .box h5 {
+    font-size: 1.2rem;
+  }
+  .box p {
+    font-size: 16px;
+  }
+  .title2 h2 {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  .title1 h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  .titleCarousel {
+    padding-bottom: 0px;
+  }
+  .title1 h2 {
+    font-size: 1.9rem;
+  }
+  .title2 h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 869px) {
+  .titleCarousel h1 {
+    font-size: 2.3rem;
+  }
+  .title1 h2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 798px) {
+  .titleCarousel h1 {
+    font-size: 2.2rem;
+  }
+  .title1 h2 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .titleCarousel {
+    padding-bottom: 20%;
+  }
+  .titleCarousel p {
+    font-size: 26px;
+  }
+  .title1 h2 {
+    font-size: 1.6rem;
+  }
+  .box h5 {
+    font-size: 1.1rem;
+  }
+  .cardMainPageTitle h2 {
+    font-size: 2.2rem;
+  }
+  .cardMainPageTitle p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 913px) {
+  .titleCarousel {
+    padding-bottom: 30%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .titleCarousel {
+    padding-bottom: 0px;
+  }
+  .titleCarousel h1 {
+    font-size: 2.1rem;
+  }
+  .boxMainPage {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+  }
+  .halfSideMainPage-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .halfSideInfoMainPage {
+    padding: 40px;
+  }
+  .halfSideInfo2MainPage {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .title1 h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 694px) {
+  .title1 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .title1 h2 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 651px) {
+  .titleCarousel h1 {
+    font-size: 2rem;
+  }
+  .titleCarousel p {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .titleCarousel h1 {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .titleCarousel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.3;
+  }
+  .titleCarousel h1 {
+    font-size: 1.8rem;
+  }
+  .titleCarousel p {
+    font-size: 20px;
+  }
+  .title1 {
+    height: 220px;
+  }
+  .title2 {
+    height: 200px;
+  }
+  .title2 h2 {
+    font-size: 1.5rem;
+  }
+  .cardMainPageTitle h2 {
+    font-size: 2rem;
+  }
+  .cardMainPageTitle p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .titleCarousel {
+    padding-bottom: 20%;
+  }
+  .titleCarousel h1 {
+    font-size: 1.7rem;
+  }
+  .title1 h2 {
+    font-size: 1.2rem;
+  }
+  .requestCard h1 {
+    font-size: 1.6rem;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .titleCarousel {
+    padding-bottom: 0px;
+  }
+  .titleCarousel h1 {
+    font-size: 1.6rem;
+  }
+  .title1 h2 {
+    font-size: 1.1rem;
+  }
+  .box h5 {
+    font-size: 0.8rem;
+  }
+}
+.contactPageImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  width: 100%;
+  height: 355px;
+}
+.contactPageImg::before {
+  content: "";
+  background-image: url(../contactPageImage/hardwood_floor.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.contactPageTitle {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.contactPageFormTitle {
+  height: 180px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactPageFormTitle h2 {
+  font-weight: 900;
+}
+.contactPageFormTitle p {
+  opacity: 0.8;
+}
+
+.contactPageForm {
+  height: 500px;
+  padding-top: 5%;
+}
+.contactPageForm button {
+  color: #007f8b;
+  border: 1px solid #007f8b;
+}
+.contactPageForm button:hover {
+  background-color: #007f8b;
+}
+
+#btnSubmit {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 914px) {
+  .contactPageTitle {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .contactPageFormTitle {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 594px) {
+  .contactPageFormTitle {
+    width: 80%;
+  }
+  .contactPageFormTitle p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .contactPageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contactPageTitle {
+    font-size: 2.3rem;
+  }
+  .contactPageFormTitle {
+    width: 90%;
+  }
+  .contactPageFormTitle h2 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .contactPageFormTitle {
+    width: 100%;
+  }
+}
+.productPageContent {
+  background-color: #f6f6f6;
+}
+
+.productPageTitle {
+  height: 250px;
+}
+.productPageTitle h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.productPageTitle p {
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.productPageCardText {
+  width: 45%;
+  line-height: 2;
+}
+.productPageCardText h6 {
+  font-weight: 900;
+}
+.productPageCardText p,
+.productPageCardText ul {
+  opacity: 0.7;
+}
+
+.productPageCardImg {
+  height: 20%;
+  width: 43%;
+}
+
+.productPageAnchor h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+.productPageAnchor p {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 770px) {
+  .productPageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .productPageCardImg {
+    width: 80%;
+  }
+  .productPageCardText {
+    width: 80%;
+    padding-top: 10px;
+  }
+  .productPageAnchor h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 617px) {
+  .productPageTitle h1 {
+    font-size: 2rem;
+  }
+  .productPageAnchor h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 432px) {
+  .productPageTitle h1 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .productPageTitle p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.projectsPageImgTitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1000px #007f8b;
+  width: 100%;
+  height: 170px;
+  color: rgb(255, 255, 255);
+}
+.projectsPageImgTitle::before {
+  content: "";
+  background-image: url(../projectsPageImages/hardwood_floor.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.projectsPageTitle {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.projectsPageSubtitle {
+  width: 100%;
+  height: 370px;
+}
+.projectsPageSubtitle h2 {
+  width: 50%;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.projectsPageSubtitle p {
+  width: 45%;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.card {
+  border: 4px solid;
+}
+
+.card-body-ProjectsPage h6 {
+  font-weight: 900;
+  padding-left: 10%;
+}
+
+.card-text-ProjectsPage {
+  padding-left: 10%;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 2;
+}
+
+.projectsPageImgAside {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  border-radius: 3%;
+}
+
+.projectsPageImgAside1 {
+  background-image: url(../projectsPageImages/condo-01.jpg);
+  width: 60%;
+}
+
+.projectsPageImgAside2 {
+  background-image: url(../projectsPageImages/swimming_pool.webp);
+  width: 75%;
+}
+
+.projectsPageImgAside3 {
+  background-image: url(../projectsPageImages/galpao.jpg);
+  width: 100%;
+  border-radius: 3%;
+}
+
+.requestCard-ProjectsPage h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 954px) {
+  .projectsPageSubtitle h2 {
+    font-size: 2rem;
+  }
+  .projectsPageSubtitle p {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .projectsPageCard {
+    padding-bottom: 10%;
+  }
+  .projectsPageCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectsPageImgAside {
+    height: 360px;
+    width: 80%;
+  }
+  .projectsPageCardContent2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 757px) {
+  .projectsPageSubtitle h2 {
+    width: 60%;
+  }
+  .projectsPageImgAside {
+    height: 300px;
+  }
+  .requestCard-ProjectsPage h1 {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 631px) {
+  .projectsPageSubtitle h2 {
+    width: 70%;
+  }
+  .requestCard-ProjectsPage h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .projectsPageSubtitle h2 {
+    width: 90%;
+  }
+  .card-body-ProjectsPage h6 {
+    padding: 0%;
+    line-height: 1.6;
+  }
+  .card-text-ProjectsPage {
+    font-size: 14px;
+    width: 100%;
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .projectsPageTitle {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .projectsPageTitle {
+    font-size: 2rem;
+  }
+  .projectsPageSubtitle h2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .projectsPageTitle {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

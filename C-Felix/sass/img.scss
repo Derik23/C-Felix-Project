@@ -1,0 +1,54 @@
+.carousel-item {
+  height: 70vh;
+}
+
+.card-img-top {
+  width: 4rem;
+}
+
+.halfSideImg {
+  background-image: url(../images/3bootstrapGrid/engineeringCFelix.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.halfSideImg2 {
+  background-image: url(../images/3bootstrapGrid/fachada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.workCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+.workCardImg {
+  background-image: url(../images/4bootstrapGrid/condo-01.jpg);
+}
+
+.workCardImg2 {
+  background-image: url(../images/4bootstrapGrid/condo-02.jpg);
+}
+
+.workCardImg3 {
+  background-image: url(../images/4bootstrapGrid/condo-03.jpg);
+}
+
+.workCardImg4 {
+  background-image: url(../images/4bootstrapGrid/viaduto.jpg);
+}
+.workCardImg5 {
+  background-image: url(../images/4bootstrapGrid/arena-01-p-500.jpeg);
+}
+.workCardImg6 {
+  background-image: url(../images/4bootstrapGrid/galpao.jpg);
+}

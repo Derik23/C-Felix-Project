@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+#logo {
+  width: 100%;
+  background-color: transparent;
+}
+.requestCard {
+  height: 400px;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    3deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 127, 139, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+
+  h1 {
+    color: #ffffff;
+    font-weight: 600;
+    opacity: 0.9;
+    padding: 20px;
+    font-size: 1.9rem;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 900;
+    padding-bottom: 3%;
+  }
+
+  button {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #00a0af;
+    border-radius: 10px;
+
+    &:hover {
+      color: #007f8b;
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+  }
+}
+
+.navbar {
+  height: 90px;
+}
+
+.navbarBtn {
+  button {
+    background-color: #ffffff;
+    color: #007f8b;
+    border: 1px #007f8b solid;
+    font-size: 11px;
+
+    &:hover {
+      background-color: #007f8b;
+      color: #ffffff;
+    }
+  }
+}
+
+.navbar-collapse {
+  background-color: rgb(255, 255, 255);
+  padding-left: 5%;
+}
+
+#navbarTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#navbarSubTitle {
+  display: block;
+  font-size: 12px;
+  color: #007f8b;
+  padding-left: 8px;
+}
+
+.footer {
+  height: 400px;
+  background: rgb(66, 66, 66);
+  color: rgb(255, 255, 255);
+}
+
+.footerTitle {
+  color: #007f8b;
+}
+
+.card-body-footer {
+  row-gap: 40%;
+}
+
+.card-text-footer {
+  width: 90%;
+}
+
+.copyright {
+  font-size: 12px;
+
+  span {
+    color: #007f8b;
+  }
+}
+
+.contactFooter {
+  p {
+    font-size: 12px;
+  }
+}
+
+.arrowFooter {
+  background: #ffffff;
+  border-radius: 100%;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.hrUsual {
+  height: 1vh;
+  width: 100%;
+  background: linear-gradient(to right, #75ffe3, #007f8b);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  .footer {
+    height: 560px;
+  }
+}
+
+@media only screen and (max-width: 513px) {
+  .footer {
+    height: 600px;
+  }
+  .copyright {
+    span {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .footer {
+    height: 640px;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .footer {
+    height: 660px;
+  }
+}
